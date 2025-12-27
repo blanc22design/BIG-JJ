@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 讓 APP 在手機上操作手感更像原生 */
+body {
+  overscroll-behavior-y: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none; /* 防止長按選取文字 */
+}
