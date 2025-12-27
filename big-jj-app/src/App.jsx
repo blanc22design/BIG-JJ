@@ -55,7 +55,7 @@ const db = getFirestore(app);
 const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
 
 // --- Gemini API Configuration ---
-const apiKey = ""; // API key will be injected by the environment
+const apiKey = "AIzaSyARtrlMKXh3gB5FjkoZ8BNKqmb2bFbtPfQ"; // API key will be injected by the environment
 
 const DAYS_OF_WEEK = ['週一', '週二', '週三', '週四', '週五', '週六', '週日'];
 
@@ -2069,4 +2069,5 @@ export default function App() {
       )}
     </div>
   );
+
 };
